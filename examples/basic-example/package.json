@@ -8,6 +8,9 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@cjgammon/wc-router": "workspace:^" 
+  },
   "devDependencies": {
     "vite": "^5.4.1"
   }

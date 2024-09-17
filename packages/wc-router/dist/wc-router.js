@@ -17,7 +17,7 @@ let WCRouter = class WCRouter extends LitElement {
         window.addEventListener('hashchange', () => this.handleHashChange());
     }
     updateRoute() {
-        const currentHash = window.location.hash.slice(1); // Remove '#' more efficiently
+        const currentHash = window.location.hash.slice(1);
         let matchFound = false;
         for (const route of this.routes) {
             const hash = route.getAttribute('hash');
