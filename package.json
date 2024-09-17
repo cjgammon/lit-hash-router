@@ -1,5 +1,5 @@
 {
-  "name": "lit-hash-router",
+  "name": "wc-router",
   "version": "1.0.0",
   "description": "hash router web component",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cjgammon/lit-hash-router.git"
+    "url": "git+https://github.com/cjgammon/wc-router.git"
   },
   "keywords": [
     "router",
@@ -19,9 +19,9 @@
   "author": "cjgammon",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cjgammon/lit-hash-router/issues"
+    "url": "https://github.com/cjgammon/wc-router/issues"
   },
-  "homepage": "https://github.com/cjgammon/lit-hash-router#readme",
+  "homepage": "https://github.com/cjgammon/wc-router#readme",
   "dependencies": {
     "lit": "^3.2.0",
     "tslib": "^2.7.0",
